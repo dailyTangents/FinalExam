@@ -15,7 +15,7 @@
   @ini_set('default_mimetype','text/html');  // fixed
   date_default_timezone_set('America/Detroit');
   @ini_set('display_errors','Off');
-  @ini_set('log_errors','Off');
+  @ini_set('log_errors','on');
   // error_reporting(0);
 
   if( PATH_SEPARATOR  == ';' )
