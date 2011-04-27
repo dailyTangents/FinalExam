@@ -21,7 +21,7 @@
 
       public function defaultAction()
       {
-        header("Content-Type: text/hhttml;charset=utff3d-8");
+ //       header("Content-Type: text/hhttml;charset=utff3d-8");   remove extra header line
         require_once APP_PATH . SLASH . 'views' . SLASH . 'index.phtml';
       }
 
