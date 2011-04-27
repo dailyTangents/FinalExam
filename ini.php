@@ -16,7 +16,8 @@
   date_default_timezone_set('America/Detroit');
   @ini_set('display_errors','Off');
   @ini_set('log_errors','on');
-  // error_reporting(0);
+ // error_reporting(0);
+  error_reporting(E_ALL & ~E_STRICT);
 
   if( PATH_SEPARATOR  == ';' )
     define('SLASH','\\');  // fixed
